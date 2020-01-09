@@ -1,0 +1,103 @@
+/*Fonts*/
+
+@font-face {
+	font-family: 'QuickSand';
+	src: url(../fonts/QuickSand/Quicksand-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'QuickSand';
+	src: url(../fonts/QuickSand/Quicksand-Bold.ttf);
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'QuickSand';
+	src: url(../fonts/QuickSand/Quicksand-Medium.ttf);
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'QuickSand';
+	src: url(../fonts/QuickSand/Quicksand-Light.ttf);
+	font-weight: 300;
+}
+
+/*Body*/
+
+body {
+	font-family: 'Quicksand', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
+	font-weight: 400;
+	position: relative;
+	z-index: 10000000;
+}
+
+.bg {
+	background-color: #F9FAFC;
+}
+
+/* Padding */
+.padding-m{
+	padding: 20px;
+}
+
+.padding-left-s{
+	padding-left: 10px;
+}
+
+.padding-left-m{
+	padding-left: 20px;
+}
+
+.country-scroll{
+	height: 200px;
+	width: 300px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.container-card {
+	z-index: 0;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+	margin: 15px;
+	width: 300px;
+	height: 225px;
+	border-radius: 40px;
+  	border: 2px solid grey;
+	transition: 0.4s;
+  }
+
+  .card:hover {
+	transform: scale(1.1, 1.1);
+	border: 3px solid grey;
+  }
+
+  .content-card {
+	  padding: 30px;
+  }
+
+  .filtered {
+	  padding: 0.5rem;
+	  border: 1px solid #ccc;
+	  border-radius: 5px;
+  }
+
+  .margin-top {
+	  margin-top: 100px;
+  }
+
+  .newsletter-box{
+	  padding: 25px;
+	  border: 2px solid #ccc;
+	  border-radius: 10px;
+  }
+
+  .cursor-pointer{
+	  cursor: pointer;
+  }

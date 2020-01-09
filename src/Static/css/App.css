@@ -1,0 +1,565 @@
+a:hover {
+  color: inherit;
+}
+
+body {
+  color: #757886 !important;
+  background-color: #f0f2f7 !important;
+}
+
+@media (min-width: 1600px) {
+  .container {
+    width: 1400px;
+  }
+}
+
+.container-tab {
+  background-color: #fff;
+  box-shadow: 0 0 4px 0 rgba(192, 192, 192, 0.5);
+}
+
+.container-full,
+.container-tab {
+  width: 100%;
+  margin: '0 auto';
+}
+
+/* Container configuration for larger device */
+
+/* text color */
+.red-text {
+  color: red;
+}
+
+.green-text {
+  color: #00ff00;
+}
+
+.lighter-orange-text {
+  color: #ff7f45;
+}
+
+.darker-gray-text {
+  color: #d4dce6;
+}
+
+.secondary-gray-text {
+  color: #757886;
+}
+
+.primary-primary {
+  color: #f26525;
+}
+
+.black {
+  color: black;
+}
+
+.primary-gray {
+  color: #555761;
+}
+
+.lighter-gray {
+  color: #8796a9;
+}
+
+/* end of text color */
+
+/* util */
+
+.centered-column {
+  margin: auto;
+  float: none;
+}
+
+.menu-btn {
+  border: none;
+  background: transparent;
+}
+
+.big-font-size {
+  font-size: 40px !important;
+}
+
+.icon-big {
+  font-size: 110px !important;
+}
+
+.no-text-center {
+  text-align: left !important;
+}
+
+.bg-tab {
+  background-color: #fff;
+}
+
+.tabactive {
+  border-bottom: 2px solid rgb(0, 183, 255);
+}
+
+.input-width-half {
+  width: 50%;
+}
+
+.bg-primary-gray {
+  background-color: #555761;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-offwhite {
+  background-color: #eee;
+}
+
+.bg-dark-offwhite {
+  background-color: #ccc;
+}
+
+.bg-light-blue {
+  background-color: #f0ffff !important;
+}
+
+.bg-ios-preview {
+  background-color: #dedfe1;
+}
+
+.word-boundary {
+  word-wrap: break-word;
+}
+
+.checkbox .custom-checkbox::before {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.checkbox .custom-checkbox::after {
+  font-size: 16px;
+}
+
+.no-resize-textarea {
+  resize: none;
+}
+
+.menu-separation {
+  border-bottom: 1px solid #e0e6ed;
+}
+
+.rotate-icon {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari 3-8 */
+  transform: rotate(90deg);
+}
+
+/* end of util */
+
+/* Popup action for campaign list */
+
+.campaign-menu:hover {
+  color: #008ccf;
+  opacity: 1;
+}
+
+/* End of popup action for campaign list */
+
+/* Custom Checkbox */
+.action-button {
+  display: none;
+}
+
+input[type='checkbox']:checked ~ label ~ .action-button {
+  display: block;
+}
+
+/* End of Custom Checkbox */
+
+.delete-img-btn {
+  border: none;
+  background: transparent;
+}
+
+.delete-img-btn:valid {
+  outline: none;
+}
+
+.btn-create-campaign {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.border-light-gray {
+  border: 1px solid #e0e6ed;
+  border-radius: 6px;
+}
+
+.no-border {
+  border: none !important;
+}
+
+.filter-search-border {
+  border-left: 2px solid #e0e6ed;
+  border-right: 2px solid #e0e6ed;
+}
+
+.input-dropdown-center {
+  text-align-last: center;
+}
+
+/* FILTER */
+
+.filter-search > input {
+  border: none;
+  width: 100%;
+  position: relative;
+}
+
+.filter-search::after {
+  font-family: 'anticon';
+  content: '\e670';
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: 13px;
+  font-size: 20px;
+}
+
+/* END OF FILTER */
+
+/* Radio Segmented */
+
+.row.shipping-method {
+  margin-right: -5px;
+}
+
+.container-rb-shipping-method {
+  background-color: #ffffff;
+  border: 1px solid #e0e6ed;
+  border-radius: 4px;
+  margin-right: -10px;
+  padding-right: 20px;
+}
+
+.rb-shipping-method {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.rb-shipping-method input[type='radio']:checked + label,
+.rb-shipping-method input[type='radio']:checked + label > span {
+  color: #008ed1;
+  font-weight: 700;
+  border-color: #008ed1;
+}
+
+/* End of Radio Segmented */
+
+/* Notification Preview */
+.btn-close-preview {
+  box-sizing: border-box;
+  background-color: #797c85;
+  color: white;
+  text-align: center;
+  border: none;
+}
+
+.card-preview {
+  width: 360px;
+}
+
+.icon-preview-s {
+  width: 45px;
+  height: 45px;
+}
+
+.icon-preview-xs {
+  width: 20px;
+  height: 20px;
+}
+
+/* end of notification preview */
+
+/* large combo box */
+
+.combo-box-wrapper {
+  position: relative;
+}
+
+.combo-box {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 13px 15px 13px 25px;
+  width: 60%;
+  font-size: 18px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.combo-box-wrapper::after {
+  line-height: 50px;
+  content: '\e606';
+  position: absolute;
+  z-index: 1000;
+  font-family: anticon !important;
+  font-size: 1em;
+  color: #757886;
+  left: 50%;
+}
+
+/* end of large combo box */
+
+/* overwrite */
+.form-m.select::after {
+  content: '\e606';
+  right: 0;
+}
+/* overwrite */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* date picker */
+
+.rdt {
+  position: relative;
+}
+
+.rdt > input:read-only {
+  background-color: #fff;
+}
+
+.rdtPicker {
+  display: none;
+  position: absolute;
+  width: 250px;
+  padding: 4px;
+  margin-top: 1px;
+  z-index: 99999 !important;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f9f9f9;
+}
+.rdtOpen .rdtPicker {
+  display: block;
+}
+.rdtStatic .rdtPicker {
+  box-shadow: none;
+  position: static;
+}
+
+.rdtPicker .rdtTimeToggle {
+  text-align: center;
+}
+
+.rdtPicker table {
+  width: 100%;
+  margin: 0;
+}
+.rdtPicker td,
+.rdtPicker th {
+  text-align: center;
+  height: 28px;
+}
+.rdtPicker td {
+  cursor: pointer;
+}
+.rdtPicker td.rdtDay:hover,
+.rdtPicker td.rdtHour:hover,
+.rdtPicker td.rdtMinute:hover,
+.rdtPicker td.rdtSecond:hover,
+.rdtPicker .rdtTimeToggle:hover {
+  background: #eeeeee;
+  cursor: pointer;
+}
+.rdtPicker td.rdtOld,
+.rdtPicker td.rdtNew {
+  color: #999999;
+}
+.rdtPicker td.rdtToday {
+  position: relative;
+}
+.rdtPicker td.rdtToday:before {
+  content: '';
+  display: inline-block;
+  border-left: 7px solid transparent;
+  border-bottom: 7px solid #428bca;
+  border-top-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+}
+.rdtPicker td.rdtActive,
+.rdtPicker td.rdtActive:hover {
+  background-color: #428bca;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.rdtPicker td.rdtActive.rdtToday:before {
+  border-bottom-color: #fff;
+}
+.rdtPicker td.rdtDisabled,
+.rdtPicker td.rdtDisabled:hover {
+  background: none;
+  color: #999999;
+  cursor: not-allowed;
+}
+
+.rdtPicker td span.rdtOld {
+  color: #999999;
+}
+.rdtPicker td span.rdtDisabled,
+.rdtPicker td span.rdtDisabled:hover {
+  background: none;
+  color: #999999;
+  cursor: not-allowed;
+}
+.rdtPicker th {
+  border-bottom: 1px solid #f9f9f9;
+}
+.rdtPicker .dow {
+  width: 14.2857%;
+  border-bottom: none;
+  cursor: default;
+}
+.rdtPicker th.rdtSwitch {
+  width: 100px;
+}
+.rdtPicker th.rdtNext,
+.rdtPicker th.rdtPrev {
+  font-size: 21px;
+  vertical-align: top;
+}
+
+.rdtPrev span,
+.rdtNext span {
+  display: block;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.rdtPicker th.rdtDisabled,
+.rdtPicker th.rdtDisabled:hover {
+  background: none;
+  color: #999999;
+  cursor: not-allowed;
+}
+.rdtPicker thead tr:first-child th {
+  cursor: pointer;
+}
+.rdtPicker thead tr:first-child th:hover {
+  background: #eeeeee;
+}
+
+.rdtPicker tfoot {
+  border-top: 1px solid #f9f9f9;
+}
+
+.rdtPicker button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.rdtPicker button:hover {
+  background-color: #eee;
+}
+
+.rdtPicker thead button {
+  width: 100%;
+  height: 100%;
+}
+
+td.rdtMonth,
+td.rdtYear {
+  height: 50px;
+  width: 25%;
+  cursor: pointer;
+}
+td.rdtMonth:hover,
+td.rdtYear:hover {
+  background: #eee;
+}
+
+.rdtCounters {
+  display: inline-block;
+}
+
+.rdtCounters > div {
+  float: left;
+}
+
+.rdtCounter {
+  height: 100px;
+}
+
+.rdtCounter {
+  width: 40px;
+}
+
+.rdtCounterSeparator {
+  line-height: 100px;
+}
+
+.rdtCounter .rdtBtn {
+  height: 40%;
+  line-height: 40px;
+  cursor: pointer;
+  display: block;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+.rdtCounter .rdtBtn:hover {
+  background: #eee;
+}
+.rdtCounter .rdtCount {
+  height: 20%;
+  font-size: 1.2em;
+}
+
+.rdtMilli {
+  vertical-align: middle;
+  padding-left: 8px;
+  width: 48px;
+}
+
+.rdtMilli input {
+  width: 100%;
+  font-size: 1.2em;
+  margin-top: 37px;
+}
+
+.rdtTime td {
+  cursor: default;
+}
+
+.react-datepicker__input-container input[readonly] {
+  background-color: white;
+}
+
+/* end of date picker */
+
+/* MICRO INTERACTION */
+.loadingStyle {
+  min-width: 100px;
+}
+
+.fontToaster {
+  font-size: 16px;
+  margin: 0px 5px;
+}

@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom'
+import { Switch, Route, Redirect } from 'react-router'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//Spinner
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
+
+// Pages
+import Home from './Pages/Home'
+import PageNotFound from './Pages/PageNotFound'
+import Newsletter from './Pages/Newsletter'
+
+class App extends Component {
+  render() {
+    return (
+      <BrowserRouter basename='/home'>
+        <div className='App'>
+          <Switch>
+            <Route path='/(|home)/' component={Home} />
+            <Route path='/newsletter' component={Newsletter} />
+            <Route path='/404' component={PageNotFound} />
+            <Redirect to='/404' />
+          </Switch>
+        </div>
+      </BrowserRouter>
+    )
+  }
 }
 
 export default App;
