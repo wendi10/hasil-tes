@@ -69,7 +69,7 @@ class Navbar extends Component {
                   ? <li className="nav-item">
                     <span className='nav-link filtered'>
                       {selectedFilter}
-                      <span className='padding-left-m cursor-pointer' onClick={() => this.props.resetFilter()}><img width='16px' src='http://localhost:3000/refresh.png'></img></span>
+                      <span className='padding-left-m cursor-pointer' onClick={() => this.props.resetFilter()}><img width='16px' src='https://stupefied-lichterman-dfea71.netlify.com/refresh.png'></img></span>
                     </span>
                   </li>
                   : null

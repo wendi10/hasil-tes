@@ -1,6 +1,6 @@
 const config = {
   universityURL: "https://cors-anywhere.herokuapp.com/http://universities.hipolabs.com/",
-  baseURL: "http://localhost:3000/"
+  baseURL: "https://stupefied-lichterman-dfea71.netlify.com"
 };
 
 export default config;
